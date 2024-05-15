@@ -1,0 +1,237 @@
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Restaurant Management System</title>
+    <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  </head>
+     <body style="background-color: rgb(248, 243, 243);">
+
+      <!--NAVBAR Bar-->
+      <div>
+       <nav class="navbar navbar-expand-lg" style="background-color:#19282F" >
+        <div class="container">
+          <a class="brand-name" href="#">The Restaurant</a>
+
+          <!--Collapse Menu Icon-->
+          <button id="navbar-toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!--Navbar Items-->
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="index.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="index.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="index.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link ps-2" href="#book-table">Book A Table</a>
+              </li>
+            </ul>
+            <!--end of navbar items-->
+            
+            <!--Search button-->
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel" data-interval="1000">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/dessert-2(edit).jpg" alt="dessert" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dessert-3(edit).jpg" alt="dessert" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="images/dessert-1(edit).jpg" alt="dessert" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<div class="container-fluid p-5 dessert-text">
+    <h1>Dessert</h1>
+    <p>Life is uncertain. Eat dessert first.</p> 
+    <hr>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert1.webp" alt="Starter 1">
+              <h1 class="header">Mocha Mud Pie</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert2.webp" alt="Starter 2">
+              <h1 class="header">Warm Apple Crisp</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert4.jpg" alt="Starter 3">
+              <h1 class="header">Chocolate Sundae</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert1.webp" alt="Starter 1">
+              <h1 class="header">Oreo Madness</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert2.webp" alt="Starter 2">
+              <h1 class="header">Cheesecake</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="card">
+            <div class="card-body">
+              <img src="images/dessert4.jpg" alt="Starter 3">
+              <h1 class="header">Caramel Crunch</h1>
+              <p class="price">$19.99</p>
+              <p>Some text about the food..</p>
+            </div>
+            <div class="card-footer bg-dark p-0">
+              <p><a href="#">Order Now</a></p>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+   <!-- FOOTER -->
+   <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="row gy-3">
+        <div class="col-lg-3 col-md-6 d-flex">
+          <i class="bi bi-geo-alt icon"></i>
+          <div>
+            <h4>Address</h4>
+            <p>
+              ABC Street <br>
+              Kolkata, West Bengal, India<br>
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Reservations</h4>
+            <p>
+              <strong>Phone:</strong> 998877665544<br>
+              <strong>Email:</strong>restaurant@example.com<br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links d-flex">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>Mon-Sat: 11AM</strong> - 23PM<br>
+              Sunday: Closed
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 footer-links">
+          <h4>Follow Us</h4>
+          <div class="social-links d-flex">
+            <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </footer>
+
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
